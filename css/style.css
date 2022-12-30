@@ -1,0 +1,3631 @@
+@font-face {
+    font-family: 'TestFinancierDisplay';
+    src: url('../fonts/TestFinancierDisplay-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Prompt-Regular';
+    src: url('../fonts/Prompt-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'TestFinancierDisplay';
+    src: url('../fonts/TestFinancierDisplay-Regular.otf');
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.background {
+    background-color: #F5F2E4;
+}
+
+.verticalmenu {
+    margin-left: -125px;
+}
+
+/* section 1 */
+
+.stroke_fill .nav-link {
+    font-family: 'TestFinancierDisplay';
+    font-size: 26px;
+    color: #563F37;
+    margin: 5px;
+}
+
+.stroke_fill .nav-link:hover,
+.stroke_fill .nav-link.active {
+    box-shadow: 0 0 0 1px #563F37 !important;
+    color: #563F37 !important;
+    border-radius: 50%;
+    transition: .1s linear;
+}
+
+.nav-iutem .nav-link.active {
+    font-family: 'TestFinancierDisplay';
+    font-size: 26px;
+    color: #535040;
+    margin: 5px;
+}
+
+/* section 2 */
+.con {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 96px;
+}
+
+/* section 4 */
+.gastronomy {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    text-align: center;
+    font-size: 58px;
+    font-weight: 400%;
+    line-height: 115%;
+    margin-top: 50px;
+}
+
+/* section 5 */
+.headhunted {
+    font-weight: 400px;
+}
+
+.performances {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.inspire {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+}
+
+.chef_master {
+    margin-top: 90px;
+    text-align: end;
+}
+
+/* section 6 */
+.blurimage {
+    margin-top: -50px;
+}
+
+.management {
+    font-family: 'Prompt-Regular';
+    text-align: start;
+    color: #535040;
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: 460px;
+    line-height: 115%;
+}
+
+/* section 7 */
+.industry {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    text-align: start;
+    font-size: 20px;
+    margin-top: 547px;
+}
+
+.customer {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+/* scetion 8 */
+.upside_section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* section 9 */
+
+.lastdetail {
+    background-color: #535040;
+}
+
+.toplum {
+    margin-top: 94px;
+    margin-left: 135px;
+}
+
+.logo {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 45px;
+}
+
+.contact {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    margin-top: 55px;
+}
+.shoup
+{
+    display: flex;
+}
+
+.signup {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+}
+
+.rightside 
+{
+    width: 40px;
+    height: 40px;
+    padding-left: 7px;
+}
+
+.touch {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    margin-top: -5px;
+}
+
+.rightanside {
+    width: 40px;
+    height: 40px;
+    margin-left: 205px;
+    margin-top: -88px;
+}
+
+.Toplum {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 18px;
+    margin-top: 199px;
+    line-height: 34px;
+}
+
+.loct {
+    margin-left: 117px;
+    margin-top: 77.27px;
+}
+
+.location {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.Esplande {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 110px;
+}
+
+.rks {
+    padding: 15px;
+    margin-top: 90px;
+    border-top: 1px dashed #F5F2E4;
+    border-bottom: 1px dashed #F5F2E4;
+}
+
+.brand {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 80px;
+}
+
+.group {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 40px;
+}
+
+.rightsidearrow {
+    width: 40px;
+    height: 40px;
+    margin-left: 300px;
+    margin-top: -85px;
+}
+
+.social {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 50px;
+    position: relative;
+    height: 3em;
+    width: 13.5em;
+}
+
+.social .media {
+    display: block;
+    height: 4em;
+    line-height: 4em;
+    margin: -2.2em;
+    position: absolute;
+    -webkit-transition: -webkit-transform .7s;
+    -moz-transition: -moz-transform .7s;
+    -ms-transition: -ms-transform .7s;
+    -o-transition: -o-transform .7s;
+    transition: transform .7s;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+    width: 4em;
+}
+
+.social .src {
+    color: #fffdf0;
+    display: block;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 4em;
+}
+
+.media:hover {
+    -webkit-transform: scale(1.3, 1.3) rotate(45deg);
+    -moz-transform: scale(1.3, 1.3) rotate(45deg);
+    -ms-transform: scale(1.3, 1.3) rotate(45deg);
+    -o-transform: scale(1.3, 1.3) rotate(45deg);
+    transform: scale(1.3, 1.3) rotate(45deg);
+}
+
+.media {
+    padding: 15px;
+    margin-left: -10px;
+    left: 0;
+    top: 0%;
+}
+
+
+
+
+
+/* menu 2 */
+
+/* menu */
+.menu {
+    background-color: #535040;
+}
+
+.dark .nav-link {
+    font-family: 'TestFinancierDisplay';
+    font-size: 26px;
+    color: #F5F2E4 !important;
+    margin: 5px;
+}
+
+.dark .nav-link:hover,
+.dark .nav-link.active {
+    box-shadow: 0 0 0 1px #F5F2E4 !important;
+    color: #F5F2E4 !important;
+    border-radius: 50%;
+    transition: .2s linear;
+}
+
+.blen {
+    font-family: 'TestFinancierDisplay';
+    text-align: center;
+    color: #F5F2E4;
+    font-size: 96px;
+    line-height: 96%;
+    margin-top: 70px;
+}
+
+.hero {
+    padding-bottom: 170px;
+}
+
+.dish {
+    position: absolute;
+    top: 245px;
+    right: 0;
+}
+
+.simplicity {
+    position: relative;
+    z-index: 1;
+    margin-top: 115px;
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    text-align: left;
+    font-size: 96px;
+    line-height: 96%;
+}
+
+/* Beverages section */
+.Beverages {
+    background-color: #F5F2E4;
+}
+
+.milkshake {
+    margin-top: 200px;
+}
+
+.juce {
+    padding-top: 200px;
+    padding-left: 61px;
+}
+
+.bever {
+    font-family: 'TestFinancierDisplay';
+    font-size: 143px;
+    color: #535040;
+    padding-top: 20px;
+}
+
+.detail_1 {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 120%;
+    padding-top: 19.47px;
+}
+
+.detail_2 {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 120%;
+    padding-top: 30px;
+}
+
+.scotch {
+    padding-top: 200px;
+    padding-left: 123px;
+}
+
+.juices {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 59.04px;
+    padding-left: 10px;
+}
+
+.see_menu {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    text-align: center;
+    font-size: 32px;
+    line-height: 35px;
+    padding-top: 34.46px;
+}
+
+.rside {
+    position: relative;
+    padding-left: 320px;
+    margin-top: -85px;
+}
+
+/* food section */
+.food_section {
+    background-color: #B5B39D;
+}
+
+.myfood {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 200px;
+}
+
+.gralicbread {
+    padding-left: 215px;
+}
+
+.gonzalez {
+    padding-left: 218px;
+}
+
+.breakfast {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 143px;
+    margin-left: -225px;
+}
+
+.flavours {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 20px;
+    margin-left: -225px;
+}
+
+.Turkish {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 20px;
+    margin-left: -225px;
+    padding-top: 13.67px;
+}
+
+.our_menu {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    text-align: right;
+}
+
+.right_1side {
+    padding-left: 430px;
+    margin-top: -90px;
+}
+
+
+/* Main Menu */
+.food_menu {
+    background-color: #563F37;
+    padding-bottom: 100px;
+}
+
+.tost {
+    padding-top: 80px;
+}
+
+.main {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 143px;
+    padding-top: 55px;
+}
+
+.bread_based,
+.feature,
+.foodie {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 20px;
+}
+
+.pide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.see {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+}
+
+.right_2side {
+    padding-left: 10px;
+    margin-top: -10px;
+}
+
+.red_caviar {
+    position: relative;
+    padding-top: 17px;
+}
+
+.bradeitem {
+    position: relative;
+    margin-left: 12px;
+    padding-top: 17px;
+}
+
+
+/* deserts_section */
+.deserts_section {
+    background-color: #F5F2E4;
+}
+
+.pestri {
+    margin-top: 70px;
+}
+
+.cakepice {
+    margin-top: 70px;
+    padding-left: 45px;
+}
+
+.desserts {
+    font-family: 'TestFinancierDisplay';
+    color: #563F37;
+    font-size: 143px;
+    line-height: 82.5%;
+    padding-top: 45px;
+}
+
+.desert {
+    font-family: 'Prompt-Regular';
+    color: #563F37;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 30px;
+}
+
+.classic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our {
+    font-family: 'TestFinancierDisplay';
+    color: #563F37;
+    font-size: 32px;
+}
+
+.right_3side {
+    padding-left: 10px;
+    margin-top: -10px;
+}
+
+.cakedecoration {
+    padding-top: 70px;
+}
+
+/* ftoor */
+footer {
+    background-color: #535040;
+}
+
+.lastdetail {
+    background-color: #535040;
+}
+
+.toplum1 {
+    margin-top: 94px;
+    margin-left: 135px;
+}
+
+.logo1 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 45px;
+}
+
+.contact1 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    margin-top: 55px;
+}
+
+.setting1 {
+    align-items: center;
+    justify-content: center;
+}
+
+.signup {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.right {
+    margin-top: -95px;
+}
+
+.setting2 {
+    align-items: center;
+    justify-content: center;
+}
+
+.touch {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+}
+
+.rght {
+    width: 40px;
+    margin-left: 210px;
+    margin-top: -85px;
+}
+
+.Top {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 18px;
+    margin-top: 199px;
+    line-height: 34px;
+}
+
+.loct {
+    margin-left: 117px;
+    margin-top: 77.27px;
+}
+
+.direction {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.rks {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 110px;
+    padding: 15px;
+    margin-top: 90px;
+    border-top: 1px dashed #F5F2E4;
+    border-bottom: 1px dashed #F5F2E4;
+}
+
+.mad {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 80px;
+}
+
+.rightarow {
+    width: 40px;
+    margin-left: 150px;
+    margin-top: -75px;
+}
+
+.Hospitality_group {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 40px;
+}
+
+.rightarrow {
+    width: 40px;
+    margin-left: 300px;
+    margin-top: -85px;
+}
+
+.r_arrow {
+    width: 40px;
+    margin-left: 300px;
+    margin-top: -85px;
+}
+
+.social_app {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 50px;
+}
+
+.app {
+    padding: 15px;
+    margin-left: -10px;
+    
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding-top: 12px;
+    margin: 0 2px;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    -webkit-font-smoothing: antialiased;
+}
+.app:hover
+{
+    bottom:50px;
+    visibility:visible;
+    opacity:5;
+    border-radius: 10px;
+    background: #F5F2E4;
+}
+
+
+@media only screen and (max-width:426px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .simplicity {
+        font-size: 40px;
+        line-height: 140%;
+    }
+
+    .dish {
+        width: 400px;
+        top: 400px;
+    }
+
+    .standard {
+        text-align: center;
+    }
+
+    .juce {
+        padding-left: 0;
+        padding-top: 50px;
+    }
+
+    .bever {
+        font-size: 80px;
+    }
+
+    .detail_1 {
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .detail_2 {
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    .scotch {
+        padding-left: 0;
+        padding-top: 50px;
+    }
+
+    .chocolateshake {
+        width: 100%;
+    }
+
+    .myfood {
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .pan_cake {
+        width: 100%;
+    }
+
+    .gralicbread {
+        padding-left: 0;
+        padding-top: 50px;
+    }
+
+    .gonzalez {
+        padding-left: 0;
+        padding-top: 50px;
+    }
+
+    .different_item {
+        text-align: center;
+    }
+
+    .breakfast {
+        margin-left: 0;
+        font-size: 85px;
+        text-align: center;
+    }
+
+    .flavours {
+        margin-left: 0px;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .Turkish {
+        margin-left: 0px;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .our_menu {
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .right_1side {
+        padding-left: 290px;
+        margin-top: -130px;
+    }
+
+    .tost {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main {
+        font-size: 85px;
+        text-align: center;
+    }
+
+    .bread_based,
+    .feature,
+    .foodie {
+        font-size: 17px;
+    }
+
+    .see {
+        font-size: 25px;
+        text-align: center;
+        text-align: center;
+    }
+
+    .right_2side {
+        margin-top: -10px;
+    }
+
+    .setting {
+        text-align: center;
+    }
+
+    .cakepice {
+        padding-left: 0;
+    }
+
+    .desserts {
+        font-size: 85px;
+    }
+
+    .desert {
+        text-align: left;
+        font-size: 16px;
+        padding-bottom: 35px;
+    }
+
+    .cake_deco {
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+
+    .signup {
+        font-size: 25px;
+    }
+
+    .contact1 {
+        margin-left: 20px;
+    }
+
+    .setting1 {
+        margin-left: -45px;
+    }
+
+    .touch {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    .right {
+        padding-top: -100px;
+        margin-left: 232px;
+    }
+
+    .rght {
+        margin-left: 160px;
+        margin-top: -81px;
+    }
+
+    .loct {
+        margin-top: 50px;
+    }
+
+    .Top {
+        margin-top: 15px;
+        font-size: 15px;
+        margin-left: -57px;
+    }
+
+    .direction {
+        padding-left: 40px;
+    }
+
+    .rks {
+        margin-left: -120px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .mad {
+        margin-top: 50px;
+        font-size: 23px;
+    }
+
+    .rightarrow {
+        margin-left: -200px;
+        margin-top: -80px;
+    }
+
+    .setting4 {
+        margin-left: -40px;
+    }
+
+    .Hospitality {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .r_arrow {
+        margin-left: 240px;
+    }
+
+    .social_app {
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .app {
+        margin-left: -30px;
+        padding: 25px;
+    }
+
+}
+
+
+/* reservations section */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 13px;
+  }
+  .dropdown-menu {
+    display:none;
+    position: absolute;
+    border: none;
+    z-index: 1;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #F5F2E4
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown-menu li a 
+  {
+    text-decoration: none;
+    color: #563F37;
+    border: none ;
+  }
+  .mission
+  {
+    font-family: 'TestFinancierDisplay';
+    font-size: 20px;
+  }
+.dropbtn
+{
+    font-family: 'TestFinancierDisplay';
+    text-decoration: none;
+    font-size: 26px;
+    color: #563F37;
+}
+.back_color {
+    background-color: #F5F2E4;
+}
+.dropdown .dropbtn:hover
+{
+    color: #563F37;
+    box-shadow: 0 0 0 1px #563F37 !important;
+    color: #563F37 !important;
+    border-radius: 100%;
+    padding: 15px;
+    transition: .3s linear;
+}
+.ligth_navbar .nav-link {
+    font-family: 'TestFinancierDisplay';
+    font-size: 26px;
+    color: #563F37;
+    margin: 5px;
+}
+
+.ligth_navbar .nav-link:hover,
+.ligth_navbar .nav-link.active {
+    box-shadow: 0 0 0 1px #563F37 !important;
+    color: #563F37 !important;
+    border-radius: 50%;
+    transition: .3s linear;
+}
+
+/* Book Table */
+
+.book_table {
+    padding-bottom: 100px;
+}
+
+.reserve {
+    font-family: 'TestFinancierDisplay';
+    color: #563F37;
+    font-size: 96px;
+    text-align: center;
+    padding-top: 50.5px;
+}
+
+.man_takeorder {
+    padding-top: 91.4px;
+}
+
+.Nulla {
+    padding-top: 94.68px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.mollit {
+    font-family: 'Prompt-Regular';
+    color: #563F37;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.mollit_1 {
+    font-family: 'Prompt-Regular';
+    color: #563F37;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 20px;
+}
+
+.book {
+    font-family: 'TestFinancierDisplay';
+    color: #563F37;
+    font-size: 32px;
+    padding-top: 26.09px;
+}
+
+.now {
+    display: flex;
+    align-items: baseline;
+}
+
+.right_direction {
+    padding-left: 10px;
+}
+
+.reserved_1 {
+    padding-top: 94.68px;
+    padding-left: 75px;
+}
+
+/* ftoor */
+
+footer {
+    background-color: #535040;
+}
+
+.lastdetail {
+    background-color: #535040;
+}
+
+.toplum2 {
+    margin-top: 94px;
+    margin-left: 135px;
+}
+
+.logo2 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 45px;
+}
+
+.contact2 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    margin-top: 55px;
+}
+
+.setting5 {
+    display: flex;
+    padding-top: 50px;
+}
+
+.upnewslatter {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.right_direction1 {
+    width: 40px;
+    height: 40px;
+}
+
+.setting6 {
+    display: flex;
+    padding-top: 19.93px;
+}
+
+.in {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+}
+
+.right_direction2 {
+    width: 40px;
+    height: 40px;
+}
+
+.all {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 18px;
+    margin-top: 165px;
+    line-height: 34px;
+}
+
+.loct1 {
+    margin-left: 117px;
+    margin-top: 77.27px;
+}
+
+.direction1 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.Riyadh {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 110px;
+    padding: 15px;
+    margin-top: 90px;
+    border-top: 1px dashed #F5F2E4;
+    border-bottom: 1px dashed #F5F2E4;
+}
+
+.loctionlogo {
+    position: relative;
+    padding-left: 450px;
+    margin-top: -58px;
+}
+
+.setting7 {
+    display: flex;
+}
+
+.mad-brand {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 34px;
+    margin-top: 80px;
+}
+
+.right_direction3 {
+    width: 40px;
+    height: 40px;
+    margin-top: 73px;
+    padding-left: 7px;
+}
+
+.setting8 {
+    display: flex;
+}
+
+.Hospitality {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 40px;
+}
+
+.right_direction4 {
+    width: 40px;
+    height: 40px;
+    margin-top: 35px;
+    padding-left: 7px;
+}
+
+.social_app {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 50px;
+}
+
+.app {
+    padding: 15px;
+    margin-left: -10px;
+}
+
+footer {
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width:426px) {
+    .reserve {
+        font-size: 65px;
+    }
+
+    .take_order {
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    .mollit {
+        font-size: 17px;
+        margin-left: -80px
+    }
+
+    .Nulla {
+        padding-top: 55px;
+    }
+
+    .mollit_1 {
+        font-size: 17px;
+        margin-left: -80px
+    }
+
+    .now {
+        margin-left: -62px;
+    }
+
+    .right_direction {
+        font-size: 26px;
+    }
+
+    .reserved_1 {
+        padding-left: 0;
+    }
+
+    .res {
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    /* footer */
+
+    .logo2 {
+        font-size: 35px;
+    }
+
+    .contact2 {
+        margin-left: 20px;
+    }
+
+    .setting5 {
+        margin-left: -45px;
+    }
+
+    .upnewslatter {
+        font-size: 25px;
+    }
+
+    .right_direction1 {
+        padding-top: -100px;
+    }
+
+    .in {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    .right_direction2 {
+        margin-top: 8px;
+    }
+
+    .all {
+        margin-top: 35px;
+        font-size: 15px;
+        margin-left: -57px;
+    }
+
+    .direction1 {
+        padding-left: 40px;
+    }
+
+    .Riyadh {
+        font-size: 18px;
+        margin-left: -120px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .loctionlogo {
+        padding-left: 220px;
+    }
+
+    .mad-brand {
+        margin-top: 50px;
+        font-size: 23px;
+    }
+
+    .right_direction3 {
+        margin-top: 45px;
+    }
+
+    .setting8 {
+        margin-left: -40px;
+    }
+
+    .Hospitality_group {
+        font-size: 25px;
+    }
+
+    .social_app {
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .app {
+        margin-left: -30px;
+        padding: 25px;
+    }
+}
+
+
+
+/* Delivery Order section*/
+
+.background_color {
+    background-color: #F5F2E4;
+}
+
+.navbar_light .nav-link {
+    font-family: 'TestFinancierDisplay';
+    font-size: 26px;
+    color: #563F37 !important;
+    margin: 5px;
+}
+
+.navbar_light .nav-link:hover,.navbar_light .nav-link.active 
+{
+    box-shadow: 0 0 0 1px #563F37 !important;
+    color: #563F37 !important;
+    border-radius: 50%;
+    transition: .2s linear;
+}
+
+/* breakfasts  */
+
+.breakfasts {
+    padding-bottom: 100px;
+}
+
+.Delivery_Order {
+    font-family: 'TestFinancierDisplay';
+    color: #563F37;
+    font-size: 96px;
+    text-align: center;
+    padding-top: 50.5px;
+}
+
+.hotal_view {
+    padding-top: 91.4px;
+}
+
+.Perfect {
+    padding-top: 94.68px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.bed {
+    font-family: 'Prompt-Regular';
+    color: #563F37;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.keep {
+    display: flex;
+    align-items: baseline;
+}
+
+.ready {
+    font-family: 'TestFinancierDisplay';
+    color: #563F37;
+    font-size: 32px;
+    padding-top: 26.09px;
+}
+
+.right_loction1 {
+    padding-left: 10px;
+}
+
+.deliver {
+    padding-top: 94.68px;
+    padding-left: 75px;
+}
+
+/* ftoor */
+
+footer {
+    background-color: #535040;
+}
+
+.toplum3 {
+    margin-top: 94px;
+    margin-left: 135px;
+}
+
+.logo3 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 45px;
+}
+
+.contact3 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    margin-top: 55px;
+}
+
+.setting9 {
+    display: flex;
+    padding-top: 50px;
+}
+
+.upnews {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.right_loction2 {
+    width: 40px;
+    height: 40px;
+}
+
+.setting10 {
+    display: flex;
+    padding-top: 19.93px;
+}
+
+.get {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+}
+
+.right_loction3 {
+    width: 40px;
+    height: 40px;
+}
+
+.all_right {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 18px;
+    margin-top: 165px;
+    line-height: 34px;
+}
+
+.loct2 {
+    margin-left: 117px;
+    margin-top: 77.27px;
+}
+
+.direction2 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.The {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 110px;
+    padding: 15px;
+    margin-top: 90px;
+    border-top: 1px dashed #F5F2E4;
+    border-bottom: 1px dashed #F5F2E4;
+}
+
+.loctionlogo_1 {
+    position: relative;
+    padding-left: 450px;
+    margin-top: -58px;
+}
+
+.setting11 {
+    display: flex;
+}
+
+.mad_brand {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 34px;
+    margin-top: 80px;
+}
+
+.right_loction4 {
+    width: 40px;
+    height: 40px;
+    margin-top: 73px;
+    padding-left: 7px;
+}
+
+.setting12 {
+    display: flex;
+}
+
+.Hospitality-group {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 40px;
+}
+
+.right_loction5 {
+    width: 40px;
+    height: 40px;
+    margin-top: 35px;
+    padding-left: 7px;
+}
+
+.social_app {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 50px;
+}
+
+.app {
+    padding: 15px;
+    margin-left: -10px;
+}
+
+
+
+@media only screen and (max-width:426px) {
+    .Delivery_Order {
+        font-size: 65px;
+    }
+
+    /* hotel view */
+
+    .blur_image {
+        margin-top: -25px;
+    }
+
+    .hotal_view {
+        width: 100%;
+    }
+
+    /* hotel view */
+
+    /* breakfasts */
+
+    .Perfect {
+        margin-left: -85px;
+    }
+
+    .bed {
+        font-size: 17px;
+        margin-top: -25px;
+    }
+
+    .ready {
+        font-size: 25px;
+    }
+
+    .deliver {
+        padding-left: 0;
+    }
+
+    .cold {
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    /* breakfasts */
+
+
+    /* footer */
+
+    .logo3 {
+        font-size: 35px;
+    }
+
+    .contact3 {
+        margin-left: 20px;
+    }
+
+    .setting9 {
+        margin-left: -45px;
+    }
+
+    .upnews {
+        font-size: 25px;
+    }
+
+    .right_loction2 {
+        padding-top: -100px;
+    }
+
+    .get {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    .right_loction3 {
+        margin-top: 8px;
+    }
+
+    .all_right {
+        margin-top: 35px;
+        font-size: 15px;
+        margin-left: -57px;
+    }
+
+    .direction2 {
+        padding-left: 40px;
+    }
+
+    .The {
+        font-size: 18px;
+        margin-left: -120px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .loctionlogo_1 {
+        padding-left: 220px;
+    }
+
+    .mad_brand {
+        margin-top: 50px;
+        font-size: 23px;
+    }
+
+    .right_loction4 {
+        margin-top: 45px;
+    }
+
+    .setting12 {
+        margin-left: -40px;
+    }
+
+    .Hospitality-group {
+        font-size: 25px;
+    }
+
+    .right_loction5 {
+        margin-top: 45px;
+    }
+
+    .social_app {
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .app {
+        margin-left: -30px;
+        padding: 25px;
+    }
+
+    /* footer */
+}
+
+
+
+/* careers seaction */
+
+/* main-menu */
+
+.fill_navbar .nav-link {
+    font-family: 'TestFinancierDisplay';
+    font-size: 26px;
+    color: #563F37;
+    margin: 5px;
+}
+
+.fill_navbar .nav-link:hover,
+.fill_navbar .nav-link.active {
+    box-shadow: 0 0 0 1px #563F37 !important;
+    color: #563F37 !important;
+    border-radius: 50%;
+    transition: .5s linear;
+}
+
+
+/* careers */
+
+.career {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    text-align: center;
+    font-size: 96px;
+    padding-top: 100px;
+}
+
+
+/* cooking view */
+
+.kitchen {
+    margin-top: 94.75px;
+}
+
+
+/* team */
+
+.gets {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    font-size: 58px;
+    line-height: 115%;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+
+/* industry */
+
+.zest {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.man_smileing {
+    padding-top: 60px;
+    padding-left: 135px;
+}
+
+/* food counter */
+
+.scenes {
+    margin-top: -100px;
+}
+
+.behind {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 436.33px;
+}
+
+
+/* our rules */
+
+.interest {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    font-size: 56px;
+    line-height: 115%;
+    padding-top: 100px;
+}
+
+.different {
+    color: #B77351;
+}
+
+/* form */
+
+input:focus, textarea:focus, select:focus
+{
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+.perfection 
+{
+    padding-top: 54.54px;
+}
+.name {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 95.5%;
+}
+
+.texts,
+.interst {
+    font-size: 25px;
+    background-color: #F5F2E4;
+    border: none;
+    width: 70%;
+    border-bottom: 2px solid #535040;
+    
+}
+
+.no {
+    font-size: 20px;
+    background-color: #F5F2E4;
+    border: none;
+    width: 70%;
+    border-bottom: 2px solid #535040;
+}
+
+.Ph_no {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 95.5%;
+    padding-top: 50px;
+}
+
+.Poi {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 95.5%;
+    padding-top: 54px;
+}
+
+.attach {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 95.5%;
+    padding-top: 54px;
+}
+
+.or {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 95.5%;
+    padding-left: 515.13px;
+}
+
+.last_name {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 95.5%;
+    padding-top: 54px;
+}
+
+.email {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 95.5%;
+    padding-top: 54px;
+}
+
+.lpl {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 95.5%;
+    padding-top: 54px;
+}
+
+.ltp {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 95.5%;
+    padding-top: 54px;
+}
+
+.last,
+.mail,
+.inter,
+.Link {
+    background-color: #F5F2E4;
+    border: none;
+    width: 70%;
+    font-size: 20px;
+    border-bottom: 2px solid #535040;
+}
+
+.perfection1 {
+    padding-top: 94.54px;
+}
+
+
+/* scroll upside */
+
+.upside_sec {
+    text-align: center;
+    padding-top: 232.06px;
+    padding-bottom: 108.27px;
+    
+}
+.up_side
+{
+    cursor: pointer;
+}
+/* footer */
+
+footer {
+    background-color: #535040;
+}
+
+.toplum4 {
+    margin-top: 94px;
+    margin-left: 135px;
+}
+
+.logo4 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 45px;
+}
+
+.contact4 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    margin-top: 55px;
+}
+
+.setting13 {
+    display: flex;
+    padding-top: 50px;
+}
+
+.up {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.right_loction6 {
+    width: 40px;
+    height: 40px;
+}
+
+.setting14 {
+    display: flex;
+    padding-top: 19.93px;
+}
+
+.to_touch {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+}
+
+.right_loction7 {
+    width: 40px;
+    height: 40px;
+}
+
+.all_right {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 18px;
+    margin-top: 165px;
+    line-height: 34px;
+}
+
+.loct3 {
+    margin-left: 117px;
+    margin-top: 77.27px;
+}
+
+.direction3 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.Esplande-rks {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 110px;
+    padding: 15px;
+    margin-top: 90px;
+    border-top: 1px dashed #F5F2E4;
+    border-bottom: 1px dashed #F5F2E4;
+}
+
+.loctionlogo_2 {
+    position: relative;
+    padding-left: 450px;
+    margin-top: -58px;
+}
+
+.setting15 {
+    display: flex;
+}
+
+.mad_top {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 34px;
+    margin-top: 80px;
+}
+
+.right_loction8 {
+    width: 40px;
+    height: 40px;
+    margin-top: 73px;
+}
+
+.setting16 {
+    display: flex;
+}
+
+.mad-hospitality {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 40px;
+}
+
+.right_loction9 {
+    width: 40px;
+    height: 40px;
+    margin-top: 35px;
+    padding-left: 7px;
+}
+
+.social_app {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 50px;
+}
+
+.app {
+    padding: 15px;
+    margin-left: -10px;
+}
+
+@media only screen and (max-width:426px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* career */
+
+    .career {
+        font-size: 75px;
+        padding-top: 50px;
+    }
+
+    /* cooking image */
+
+    .cooking_man {
+        width: 100%;
+    }
+
+    .kitchen {
+        margin-top: 50px;
+    }
+
+    /* team */
+
+    .gets {
+        padding-left: 0;
+        font-size: 23px;
+        padding-top: 50px;
+        line-height: 110%;
+    }
+
+    /* industry */
+
+    .zest {
+        padding-left: 0;
+        padding-top: 40px;
+        font-size: 18px;
+    }
+
+    .smileing_man {
+        width: 100%;
+    }
+
+    /* food counter */
+
+    .girl_waiter {
+        width: 100%;
+        padding-top: 150px;
+    }
+
+    .behind {
+        font-size: 18px;
+        padding-top: 50px;
+    }
+
+    /* our rules */
+
+    .interest {
+        font-size: 26px;
+        padding-top: 50px;
+    }
+
+    /* form */
+
+    .perfection {
+        text-align: center;
+    }
+
+    .name {
+        text-align: left;
+        padding-left: 55px
+    }
+
+    .Ph_no {
+        text-align: left;
+        padding-left: 55px;
+    }
+
+    .Poi {
+        text-align: left;
+        padding-left: 55px;
+    }
+
+    .attach {
+        text-align: left;
+        padding-left: 55px;
+    }
+
+    .or {
+        padding-left: 0;
+        padding-top: 45px;
+    }
+
+    .perfection1 {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .last_name {
+        text-align: left;
+        padding-left: 55px;
+    }
+
+    .email {
+        text-align: left;
+        padding-left: 55px;
+    }
+
+    .lpl {
+        text-align: left;
+        padding-left: 55px;
+    }
+
+    .ltp {
+        text-align: left;
+        padding-left: 55px;
+    }
+
+    .upside_sec {
+        padding-top: 100px;
+    }
+
+
+    /* footer */
+
+    .logo4 {
+        font-size: 35px;
+    }
+
+    .contact4 {
+        margin-left: 20px;
+    }
+
+    .setting13 {
+        margin-left: -45px;
+    }
+
+    .up {
+        font-size: 25px;
+    }
+
+    .right_loction6 {
+        padding-top: -100px;
+    }
+
+    .setting14 {
+        margin-left: -25px;
+    }
+
+    .to_touch {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    .right_loction7 {
+        margin-top: 8px;
+    }
+
+    .all_right {
+        margin-top: 35px;
+        font-size: 15px;
+        margin-left: -57px;
+    }
+
+    .direction3 {
+        padding-left: 40px;
+    }
+
+    .Esplande-rks {
+        font-size: 18px;
+        margin-left: -120px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .loctionlogo_2 {
+        padding-left: 220px;
+    }
+
+    .setting15 {
+        margin-left: 15px;
+    }
+
+    .mad_top {
+        margin-top: 50px;
+        font-size: 23px;
+    }
+
+    .right_loction8 {
+        margin-top: 45px;
+    }
+
+    .setting16 {
+        margin-left: -40px;
+    }
+
+    .mad-hospitality {
+        font-size: 25px;
+    }
+
+    .right_loction9 {
+        margin-top: 45px;
+    }
+
+    .social {
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .media {
+        margin-left: -30px;
+        padding: 25px;
+    }
+
+}
+
+
+
+/* news seaction */
+
+/* main menu */
+
+.news .nav-link {
+    font-family: 'TestFinancierDisplay';
+    font-size: 26px;
+    color: #563F37;
+    margin: 5px;
+}
+
+.news .nav-link:hover,
+.news .nav-link.active {
+    box-shadow: 0 0 0 1px #563F37 !important;
+    color: #563F37 !important;
+    border-radius: 50%;
+    transition: .6s linear;
+}
+
+
+/* news seaction */
+
+.news-seaction {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    text-align: center;
+    font-size: 96px;
+    padding-top: 135.28px;
+}
+
+
+/* news table seaction */
+
+.table_news {
+    text-align: center;
+}
+.myborder-dark
+{
+    box-shadow: -.5px -.5px 0 .5px #535040, inset -1px -1px 0 0 #535040;
+}
+
+.culinary
+{
+    border-top: 3px solid  #563F37;
+}
+.oct {
+    font-family: 'TestFinancierDisplay';
+    color: #B77351;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: left;
+    padding-left: 85px;
+}
+
+.Brought {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    font-size: 30px;
+    line-height: 114%;
+    text-align: left;
+    padding-left: 85px;
+}
+
+.leading {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 85px;
+}
+
+.outside_view,
+.inside_seeting,
+.reserve_board 
+{
+    padding-top: 20px;
+}
+
+.coffe,
+.spaching-man,
+.seetingarea_blur,
+.cheating_man,
+.seeting_blur,
+.man_take_picture {
+    padding-top: 20px;
+}
+
+
+
+/* Article-seaction */
+.Article_set {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    text-align: center;
+    padding-top: 85px;
+    font-size: 62px;
+    line-height: 35px;
+}
+
+
+/* communication_seaction */
+
+.communication_seaction {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 110px;
+}
+
+.our_newslatter {
+    display: flex;
+    justify-content: end;
+}
+
+.hasto {
+    display: flex;
+}
+
+.news_latter {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.right-siade {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+    margin-top: -12px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #535040;
+}
+
+.toplum5 {
+    margin-top: 94px;
+    margin-left: 135px;
+}
+
+.logo5 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 45px;
+}
+
+.contact5 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    margin-top: 55px;
+}
+
+.setting17 {
+    display: flex;
+    padding-top: 50px;
+}
+
+.new {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.right_loction10 {
+    width: 40px;
+    height: 40px;
+}
+
+.setting18 {
+    display: flex;
+    padding-top: 19.93px;
+}
+
+.get-in {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+}
+
+.right_loction11 {
+    width: 40px;
+    height: 40px;
+}
+
+.all_right {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 18px;
+    margin-top: 165px;
+    line-height: 34px;
+}
+
+.loct4 {
+    margin-left: 117px;
+    margin-top: 77.27px;
+}
+
+.direction4 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.The-rsk {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 110px;
+    padding: 15px;
+    margin-top: 90px;
+    border-top: 1px dashed #F5F2E4;
+    border-bottom: 1px dashed #F5F2E4;
+}
+
+.loctionlogo_3 {
+    position: relative;
+    padding-left: 450px;
+    margin-top: -58px;
+}
+
+.setting19 {
+    display: flex;
+}
+
+.top_brand {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 34px;
+    margin-top: 80px;
+}
+
+.right_loction12 {
+    width: 40px;
+    height: 40px;
+    margin-top: 73px;
+}
+
+.setting20 {
+    display: flex;
+}
+
+.mad-hos {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 40px;
+}
+
+.right_loction13 {
+    width: 40px;
+    height: 40px;
+    margin-top: 35px;
+    padding-left: 7px;
+}
+
+.social_app {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 50px;
+}
+
+.app {
+    padding: 15px;
+    margin-left: -10px;
+}
+
+@media only screen and (max-width:426px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .news-seaction {
+        font-size: 75px;
+        padding-top: 50px;
+    }
+
+    .table_news {
+        margin-top: -50px;
+    }
+
+    .oct {
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    .Brought {
+        padding-top: 15px;
+        font-size: 25px;
+    }
+
+    .leading {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .Article_set {
+        font-size: 48px;
+        padding-top: 50px;
+    }
+
+    .communication_seaction {
+        font-size: 18px;
+        line-height: 140%;
+        padding-top: 50px;
+        padding-left: 10px
+    }
+
+    .news_latter {
+        font-size: 19px;
+    }
+
+    .hasto {
+        padding-top: 25px;
+    }
+
+
+    /* footer */
+
+    .logo5 {
+        font-size: 35px;
+    }
+
+    .contact5 {
+        margin-left: 20px;
+    }
+
+    .setting17 {
+        margin-left: -45px;
+    }
+
+    .new {
+        font-size: 25px;
+    }
+
+    .right_loction10 {
+        padding-top: -100px;
+    }
+
+    .setting18 {
+        margin-left: -25px;
+    }
+
+    .get-in {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    .right_loction11 {
+        margin-top: 8px;
+    }
+
+    .all_right {
+        margin-top: 35px;
+        font-size: 15px;
+        margin-left: -57px;
+    }
+
+    .direction4 {
+        padding-left: 40px;
+    }
+
+    .The-rsk {
+        font-size: 18px;
+        margin-left: -120px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .loctionlogo_3 {
+        padding-left: 220px;
+    }
+
+    .setting19 {
+        margin-left: 15px;
+    }
+
+    .top_brand {
+        margin-top: 50px;
+        font-size: 23px;
+    }
+
+    .setting20 {
+        margin-left: -40px;
+    }
+
+    .mad-hos {
+        font-size: 25px;
+    }
+
+    .right_loction13 {
+        margin-top: 45px;
+    }
+
+    .social_app {
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .app {
+        margin-left: -30px;
+        padding: 25px;
+    }
+
+
+}
+
+
+
+/* other Article news seaction */
+
+.left-side {
+    padding-top: 76.77px;
+}
+
+.l-side {
+    display: flex;
+}
+
+.set_news {
+    font-family: 'Prompt-Regular';
+    font-size: 34.7426px;
+    padding-top: 100px;
+    padding-left: 26.96px;
+    line-height: 96%;
+    color: #535040;
+}
+
+.next {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 34.7426px;
+    padding-right: 26.96px;
+    padding-top: 25px;
+    line-height: 96%;
+}
+
+.next-article {
+    display: flex;
+    justify-content: end;
+    padding-top: 77px;
+}
+
+/* position people */
+
+.team_position {
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 216.11px;
+    padding-right: 218.77px;
+}
+
+.octom {
+    font-family: 'TestFinancierDisplay';
+    color: #B77351;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.join_team {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    font-size: 96px;
+    line-height: 96%;
+}
+
+
+
+/* toplum services */
+
+.ensure {
+    padding-top: 91.76px;
+    padding-left: 70.49px;
+}
+
+.services {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    font-size: 58px;
+    line-height: 115%;
+}
+
+
+/* cupidatat irure */
+
+.magna {
+    padding-top: 83.16px;
+    padding-left: 70.49px;
+}
+
+.ullamco {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.Voluptate {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.duis {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.smile-man {
+    padding-top: 83.16px;
+    padding-left: 136.27px;
+}
+
+
+/* food counter */
+
+.girl_services {
+    padding-left: 70.49px;
+    padding-top: 88.14px;
+}
+
+.magna_1 {
+    padding-top: 83.16px;
+    padding-left: 70.49px;
+}
+
+.ullamco_1 {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.Voluptate_1 {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.duis_1 {
+    font-family: 'Prompt-Regular';
+    color: #535040;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+
+/* our rules */
+
+.details {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    font-size: 58px;
+    line-height: 115%;
+    padding-top: 74px;
+    padding-left: 70.49px;
+}
+
+
+
+/* other Article */
+
+.other_artic {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    text-align: center;
+    padding-top: 74px;
+    font-size: 96px;
+    line-height: 96%;
+}
+
+
+
+/* other Article */
+
+.other-article {
+    display: flex;
+    justify-content: end;
+    padding-top: 45px;
+    padding-bottom: 138.8px;
+}
+
+.more_article {
+    font-family: 'TestFinancierDisplay';
+    color: #535040;
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.rare {
+    position: relative;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: -4px;
+}
+
+
+/* table article */
+.other_table {
+    text-align: center;
+}
+
+/* footer */
+
+
+footer {
+    background-color: #535040;
+}
+
+.toplum6 {
+    margin-top: 94px;
+    margin-left: 135px;
+}
+
+.logo6 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 45px;
+}
+
+.contact6 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    margin-top: 55px;
+}
+
+.setting21 {
+    display: flex;
+    padding-top: 50px;
+}
+
+.upnew {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.right_loction14 {
+    width: 40px;
+    height: 40px;
+}
+
+.setting22 {
+    display: flex;
+    padding-top: 19.93px;
+}
+
+.in-get {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+}
+
+.right_loction15 {
+    width: 40px;
+    height: 40px;
+}
+
+.all_right {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 18px;
+    margin-top: 165px;
+    line-height: 34px;
+}
+
+.loct5 {
+    margin-left: 117px;
+    margin-top: 77.27px;
+}
+
+.direction5 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.The_rsk {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 110px;
+    padding: 15px;
+    margin-top: 90px;
+    border-top: 1px dashed #F5F2E4;
+    border-bottom: 1px dashed #F5F2E4;
+}
+
+.loctionlogo_4 {
+    position: relative;
+    padding-left: 450px;
+    margin-top: -58px;
+}
+
+.setting23 {
+    display: flex;
+}
+
+.top-brand {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 34px;
+    margin-top: 80px;
+}
+
+.setting24 {
+    display: flex;
+}
+
+.mad_hos {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 40px;
+}
+
+.right_loction17 {
+    width: 40px;
+    height: 40px;
+    margin-top: 35px;
+    padding-left: 7px;
+}
+
+.social-app {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 50px;
+}
+
+.app {
+    padding: 15px;
+    margin-left: -10px;
+}
+
+
+@media only screen and (max-width:426px) {
+    .left-side {
+        width: 60px;
+    }
+
+    .set_news {
+        font-size: 25px;
+        padding-top: 95px;
+    }
+
+    .rhts {
+        width: 60px;
+    }
+
+    .next {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    .octom {
+        font-size: 25px;
+    }
+
+    .join_team {
+        font-size: 55px;
+        text-align: left;
+    }
+
+    .services {
+        font-size: 25px;
+        margin-left: -50px;
+        margin-top: -30px;
+    }
+
+    .ullamco {
+        font-size: 17px;
+        margin-left: -50px;
+        margin-top: -35px
+    }
+
+    .Voluptate,
+    .duis {
+        font-size: 17px;
+        margin-left: -50px;
+    }
+
+    .man-smile {
+        width: 100%;
+    }
+
+    .smile-man {
+        padding-top: 50px;
+        padding-left: 0
+    }
+
+    .girl_services {
+        width: 100%;
+        padding-left: 0
+    }
+
+    .ullamco_1 {
+        font-size: 17px;
+        margin-left: -50px;
+        margin-top: -35px
+    }
+
+    .Voluptate_1,
+    .duis_1 {
+        font-size: 17px;
+        margin-left: -50px;
+    }
+
+    .details {
+        font-size: 25px;
+        margin-left: -50px;
+        padding-top: 45px;
+    }
+
+    .other_artic {
+        font-size: 54px;
+        padding-top: 40px;
+    }
+
+
+    /* footer */
+
+    .logo6 {
+        font-size: 35px;
+    }
+
+    .contact6 {
+        margin-left: 20px;
+    }
+
+    .setting21 {
+        margin-left: -45px;
+    }
+
+    .upnew {
+        font-size: 25px;
+    }
+
+    .right_loction14 {
+        padding-top: -100px;
+    }
+
+    .setting22 {
+        margin-left: -25px;
+    }
+
+    .in-get {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    .right_loction15 {
+        margin-top: 8px;
+    }
+
+    .all_right {
+        margin-top: 35px;
+        font-size: 15px;
+        margin-left: -57px;
+    }
+
+    .direction5 {
+        padding-left: 40px;
+    }
+
+    .The_rsk {
+        font-size: 18px;
+        margin-left: -120px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .loctionlogo_4 {
+        padding-left: 220px;
+    }
+
+    .setting23 {
+        margin-left: 15px;
+    }
+
+    .top-brand {
+        margin-top: 50px;
+        font-size: 23px;
+    }
+
+    .setting24 {
+        margin-left: -40px;
+    }
+
+    .mad_hos {
+        font-size: 25px;
+    }
+
+    .right_loction17 {
+        margin-top: 45px;
+    }
+
+    .Social {
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .app {
+        margin-left: -30px;
+        padding: 25px;
+    }
+
+
+}
+
+
+
+
+/* Contect us seaction */
+
+/* news seaction */
+
+.contect_navbar .nav-link {
+    font-family: 'TestFinancierDisplay';
+    font-size: 26px;
+    color: #563F37;
+    margin: 5px;
+}
+
+.contect_navbar .nav-link:hover,
+.contect_navbar .nav-link.active {
+    box-shadow: 0 0 0 1px #563F37 !important;
+    color: #563F37 !important;
+    border-radius: 50%;
+    transition: .7s;
+}
+
+/* hadding contect-us */
+
+.contect-us {
+    font-family: 'TestFinancierDisplay';
+    font-size: 96px;
+    color: #563F37;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* group booking */
+
+.here {
+    padding-bottom: 134.64px;
+}
+
+.friendly {
+    padding-top: 78.8px;
+}
+
+.discuss {
+    font-family: 'TestFinancierDisplay';
+    font-size: 48px;
+    color: #563F37;
+    line-height: 115%;
+}
+
+.just {
+    font-family: 'Prompt-Regular';
+    font-size: 47.9968px;
+    line-height: 81px;
+    color: #B77351;
+}
+
+.lcton {
+    font-family: 'Prompt-Regular';
+    font-size: 24px;
+    line-height: 34px;
+    color: #563F37;
+    padding-top: 23px;
+}
+
+.ksa {
+    font-family: 'Prompt-Regular';
+    color: #563F37;
+    font-size: 42px;
+    line-height: 55px;
+    padding-top: 18.36px;
+}
+
+.telephone {
+    font-family: 'Prompt-Regular';
+    font-size: 24px;
+    line-height: 34px;
+    color: #563F37;
+    padding-top: 42.62px;
+}
+
+.number {
+    font-family: 'Prompt-Regular';
+    color: #563F37;
+    font-size: 42px;
+    line-height: 56px;
+    padding-top: 18.36px;
+}
+
+.hot_coffe {
+    padding-top: 78.8px;
+    padding-left: 58.72px;
+}
+
+
+/* footer */
+
+
+footer {
+    background-color: #535040;
+}
+
+.toplum7 {
+    margin-top: 94px;
+    margin-left: 135px;
+}
+
+.logo7 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 45px;
+}
+
+.contact7 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    margin-top: 55px;
+}
+
+.setting25 {
+    display: flex;
+    padding-top: 50px;
+}
+
+.up_new {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.right_loction18 {
+    width: 40px;
+    height: 40px;
+}
+
+.setting26 {
+    display: flex;
+    padding-top: 19.93px;
+}
+
+.in_get {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+}
+
+.right_loction19 {
+    width: 40px;
+    height: 40px;
+}
+
+.all_right {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 18px;
+    margin-top: 165px;
+    line-height: 34px;
+}
+
+.loct6 {
+    margin-left: 117px;
+    margin-top: 77.27px;
+}
+
+.direction6 {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.The_rsk {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 110px;
+    padding: 15px;
+    margin-top: 90px;
+    border-top: 1px dashed #F5F2E4;
+    border-bottom: 1px dashed #F5F2E4;
+}
+
+.loctionlogo_6 {
+    position: relative;
+    padding-left: 450px;
+    margin-top: -58px;
+}
+
+.setting27 {
+    display: flex;
+}
+
+.topbrand {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 34px;
+    margin-top: 80px;
+}
+
+.setting28 {
+    display: flex;
+}
+
+.madhos {
+    font-family: 'TestFinancierDisplay';
+    color: #F5F2E4;
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 40px;
+}
+
+.right_loction20 {
+    width: 40px;
+    height: 40px;
+    margin-top: 35px;
+    padding-left: 7px;
+}
+
+.socialapp {
+    font-family: 'Prompt-Regular';
+    color: #F5F2E4;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 50px;
+}
+
+.app {
+    padding: 15px;
+    margin-left: -10px;
+}
+
+@media only screen and (max-width:426px) {
+    .contect-us {
+        font-size: 60px;
+        padding-top: 50px;
+    }
+
+    .discuss {
+        font-size: 35px;
+        margin-top: -40px;
+    }
+
+    .just {
+        font-size: 35px;
+    }
+
+    .lcton {
+        font-size: 17px;
+        padding-top: 0;
+    }
+
+    .ksa {
+        font-size: 25px;
+        padding-top: 0;
+    }
+
+    .telephone {
+        font-size: 17px;
+        padding-top: 20px;
+    }
+
+    .number {
+        font-size: 25px;
+        padding-top: 0;
+    }
+
+    .hot_coffe {
+        padding-left: 0;
+    }
+
+    .hot-coffe {
+        width: 100%;
+    }
+
+
+    /* footer */
+
+    .logo7 {
+        font-size: 35px;
+    }
+
+    .contact7 {
+        margin-left: 20px;
+    }
+
+    .setting25 {
+        margin-left: -45px;
+    }
+
+    .up_new {
+        font-size: 25px;
+    }
+
+    .right_loction18 {
+        padding-top: -100px;
+    }
+
+    .setting26 {
+        margin-left: -25px;
+    }
+
+    .in_get {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    .right_loction19 {
+        margin-top: 8px;
+    }
+
+    .all_right {
+        margin-top: 35px;
+        font-size: 15px;
+        margin-left: -57px;
+    }
+
+    .direction6 {
+        padding-left: 40px;
+    }
+
+    .The_rsk {
+        font-size: 18px;
+        margin-left: -120px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .loctionlogo_6 {
+        padding-left: 220px;
+    }
+
+    .setting27 {
+        margin-left: 15px;
+    }
+
+    .topbrand {
+        margin-top: 50px;
+        font-size: 23px;
+    }
+
+    .setting28 {
+        margin-left: -40px;
+    }
+
+    .madhos {
+        font-size: 25px;
+    }
+
+    .right_loction20 {
+        margin-top: 45px;
+    }
+
+    .socialapp {
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .app {
+        margin-left: -30px;
+        padding: 25px;
+    }
+}
